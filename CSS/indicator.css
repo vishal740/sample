@@ -1,0 +1,150 @@
+body {
+    background-image: url(/img/bg.jpg);
+    /*    height: 100%;*/
+}
+.static-container{max-width: 1080px; margin: auto;align-items: center;justify-content: center;}
+.heading1 {
+    color: #e60000;
+    font-family: "Font Awesome 5 Free", "Open Sans", Verdana, Geneva, sans-serif;
+    margin-left:4%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-family: "Font Awesome 5 Free", "Open Sans", Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom:15px;
+    margin-top: 20px;
+/*    color: white;*/
+}
+
+.ielts-shadow {
+    width: 100%;
+/*    height: 275px;*/
+    margin-top: 60px;
+    margin-bottom: 70px;
+/*    margin-left: 175px;*/
+    background-color: white;
+    border-radius: px;
+    /*    position: absolute;*/
+/*    box-shadow: 2px 2px 2px 2px blue;*/
+/*    border:3px solid #17327D;*/
+}
+
+hr {
+    color: black;
+}
+
+
+.para1 {
+    /*    font-family: sans-serif;*/
+    font-family: sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+/*    color: white;*/
+}
+
+.header {
+    margin-top: -70px;
+}
+
+.heading2 {
+    font-family: "Font Awesome 5 Free", "Open Sans", Verdana, Geneva, sans-serif;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    color: blue;
+}
+
+.heading3 {
+    font-family: "Font Awesome 5 Free", "Open Sans", Verdana, Geneva, sans-serif;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+.carousel{
+	background-color:white;
+}
+.carousel-caption{
+	color: black;
+	font-weight: italic;
+}
+.footer{
+	background-color:#É6E6E6;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+.address{
+	font-size: 80%;
+	margin: 0px auto;
+	color: #0f0f0f;
+}
+
+.bcontent{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.card-body{
+	text-align: left;
+}
+
+.top-content{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 40px;
+    background-color: #e6e6e6;
+}
+.card{
+    margin-top: 20px;
+}
+
+div.caption {
+  text-align: left;
+  padding: 10px 20px;
+}
+.card img:hover{
+    transform: translateY(-10%);
+}
+.nav-pills-custom .nav-link {
+    color: white;
+    background: #013f7e;
+    position: relative;
+}
+
+.nav-pills-custom .nav-link.active {
+    color: white;
+    background:  #013f7e;
+}
+
+
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+    .nav-pills-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-left: 10px solid  #013f7e;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+        border-radius: 15px;
+    }
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+p{
+    font-family: acme;
+    font-style: normal;
+}

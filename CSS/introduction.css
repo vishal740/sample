@@ -1,0 +1,227 @@
+body {
+     background-image:url("/img/bg.jpg");
+    /*    height: 100%;*/
+}
+.static-container{max-width: 1080px; margin: auto;align-items: center;justify-content: center;}
+.heading1 {
+    color: red;
+    font-family: "Font Awesome 5 Free", "Open Sans", Verdana, Geneva, sans-serif;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.para1 {
+    /*    font-family: sans-serif;*/
+    font-family: Proza;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.box-1 {
+    /*
+    margin-left: 15%;
+    margin-bottom: 20px;
+    background-color: #E6E6E6;
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+    color: white;
+    border-radius: 30px;
+*/
+}
+
+.box-1 {
+    background-image: url(/img/background.jpeg);
+}
+
+.box-1 {
+    margin-left: 3%;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+}
+
+.box-1:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.arrow {
+    color: red;
+}
+
+.box-1 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.box-1:hover,
+.box-1:focus,
+.box-1:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+
+
+.heading2 {
+    font-family: "Font Awesome 5 Free", "Open Sans", Verdana, Geneva, sans-serif;
+    margin-left: 3%;
+    margin-bottom: 20px;
+}
+
+.para2 {
+    font-family: sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.heading3 {
+    font-family: "Font Awesome 5 Free", "Open Sans", Verdana, Geneva, sans-serif;
+    margin-left: 3%;
+    margin-bottom: 20px;
+}
+
+.para3 {
+    font-family: sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.heading4 {
+    font-family: "Font Awesome 5 Free", "Open Sans", Verdana, Geneva, sans-serif;
+    margin-left: 3%;
+    margin-bottom: 20px;
+}
+
+.para4 {
+    font-family: sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.heading5 {
+    color: red;
+    font-family: "Font Awesome 5 Free", "Open Sans", Verdana, Geneva, sans-serif;
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+
+.line {
+    height: 1px;
+    border-width: 0;
+    color: white;
+    background-color: white;
+    margin-left: 1.5%;
+    margin-right: 69%;
+    margin-top: -10px;
+}
+
+.ielts-test img {
+    height: 226px;
+}
+
+.bcontent {
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*
+.ielts-img:hover {
+    filter: brightness(80%);
+    transform: translateY(-10%);
+    transform: perspective(900px) rotateY(150deg);
+}
+*/
+
+
+/* Grow Shadow */
+.ielts-test {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.ielts-test:hover,
+.ielts-test:focus,
+.ielts-test:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/*
+.ielts-img1:hover {
+    filter: brightness(80%);
+    transform: translateY(-10%);
+}
+
+.ielts-img2:hover {
+    filter: brightness(80%);
+    transform: translateX(5%);
+}
+*/
+
+/* Shadow */
+.ielts-shadow {
+    width: 100%;
+/*    height: 250px;*/
+    padding-top: px;
+    margin-bottom: 70px;
+/*    margin-left: 175px;*/
+    background-color: white;
+    border-radius: px;
+    /*    position: absolute;*/
+/*    box-shadow: 2px 2px 2px 2px blue;*/
+/*    border:3px solid #17327D;*/
+}
+
+.xyz {
+    margin-top: 50px;
+}
+
+
+
+.Indicator {
+    margin-left: 20px;
+    color: red;
+    margin-top: 20px;
+}
+
+.test {
+    margin-left: 20px;
+}
+
+.ielts-test {
+/*    height: 400px;*/
+}
+
+/*
+.row{
+   position: absolute;
+    width: 100%;
+    left: 15px;
+}
+*/
+
+
+
